@@ -13,38 +13,56 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a Marketing Specialist transitioning into a Software Engineer,
+              with a strong passion for combining business thinking with
+              technical solutions.
               <br />
               <br />
-              I’m proficient in
+              With experience in B2B marketing, I have worked on
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  brand strategy, market research, and data analysis{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — helping companies better understand their customers and improve
+              decision-making.
               <br />
               <br />
-              My key areas of interest include developing
+              I was also responsible for developing and optimizing our
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  company website and CRM system{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              , which sparked my interest in how technology powers business
+              growth.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              Currently, I am building my skills in
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">
+                  {" "}
+                  JavaScript, React.js, Node.js, and web development{" "}
+                </b>
               </i>
+              , aiming to create scalable digital products and user-friendly
+              experiences.
+              <br />
+              <br />
+              I’m especially interested in
+              <i>
+                <b className="purple">
+                  {" "}
+                  web applications, AI-driven marketing tools,{" "}
+                </b>
+              </i>
+              and leveraging technology to solve real-world business problems.
+              <br />
+              <br />
+              My goal is to become a developer who not only writes code, but also
+              understands users, markets, and product strategy.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
