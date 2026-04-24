@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
+import homeLogo from "../../Assets/home-main.svg";
 
 function Home2() {
   return (
@@ -65,7 +66,14 @@ function Home2() {
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-
+            <Tilt>
+              <img
+                src={homeLogo}
+                alt="home pic"
+                className="img-fluid"
+                style={{ maxHeight: "450px" }}
+              />
+            </Tilt>
           </Col>
         </Row>
       </Container>

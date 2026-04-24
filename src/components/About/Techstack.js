@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity } from "react-icons/si";
+import { SiNextdotjs, SiSolidity, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import { FaRust } from "react-icons/fa";
 import C from "../../Assets/TechIcons/C++.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
@@ -33,6 +33,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Java} alt="haskell" />
         <div className="tech-icons-text">Java</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftword />
+        <div className="tech-icons-text">Word</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel />
+        <div className="tech-icons-text">Excel</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftpowerpoint />
+        <div className="tech-icons-text">PowerPoint</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobephotoshop />
+        <div className="tech-icons-text">Photoshop</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobeillustrator />
+        <div className="tech-icons-text">Illustrator</div>
       </Col>
     </Row>
   );
