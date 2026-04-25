@@ -1,13 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiNextdotjs, SiSolidity, SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
-import { FaRust } from "react-icons/fa";
+import { SiMicrosoftword, SiMicrosoftexcel, SiMicrosoftpowerpoint, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import C from "../../Assets/TechIcons/C++.svg";
 import Node from "../../Assets/TechIcons/Node.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
 
 
 function Techstack() {
