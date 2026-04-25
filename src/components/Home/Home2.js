@@ -7,77 +7,73 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+        <Row className="align-items-center">
+          
+          {/* 文字部分 */}
+          <Col xs={12} md={8} className="home-about-description text-center text-md-start">
+            <h1 className="home-title">
+              LET ME <span className="purple">INTRODUCE</span> MYSELF
             </h1>
+
             <p className="home-about-body">
               I’m a Marketing Specialist transitioning into a Software Engineer,
               with a strong passion for combining business thinking with
               technical solutions.
-              <br />
-              <br />
+              <br /><br />
               With experience in B2B marketing, I have worked on
               <i>
                 <b className="purple">
-                  {" "}
-                  brand strategy, market research, and data analysis{" "}
+                  {" "}brand strategy, market research, and data analysis{" "}
                 </b>
               </i>
               — helping companies better understand their customers and improve
               decision-making.
-              <br />
-              <br />
+              <br /><br />
               I was also responsible for developing and optimizing our
               <i>
                 <b className="purple">
-                  {" "}
-                  company website and CRM system{" "}
+                  {" "}company website and CRM system{" "}
                 </b>
               </i>
-              , which sparked my interest in how technology powers business
-              growth.
-              <br />
-              <br />
+              , which sparked my interest in how technology powers business growth.
+              <br /><br />
               Currently, I am building my skills in
               <i>
                 <b className="purple">
-                  {" "}
-                  JavaScript, React.js, Node.js, and web development{" "}
+                  {" "}JavaScript, React.js, Node.js, and web development{" "}
                 </b>
               </i>
-              , aiming to create scalable digital products and user-friendly
-              experiences.
-              <br />
-              <br />
+              , aiming to create scalable digital products and user-friendly experiences.
+              <br /><br />
               I’m especially interested in
               <i>
                 <b className="purple">
-                  {" "}
-                  web applications, AI-driven marketing tools,{" "}
+                  {" "}web applications, AI-driven marketing tools{" "}
                 </b>
               </i>
-              and leveraging technology to solve real-world business problems.
-              <br />
-              <br />
+              and solving real-world business problems.
+              <br /><br />
               My goal is to become a developer who not only writes code, but also
               understands users, markets, and product strategy.
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
+
+          {/* 图片部分 */}
+          <Col xs={12} md={4} className="myAvtar text-center mt-4 mt-md-0">
+            <Tilt tiltMaxAngleX={10} tiltMaxAngleY={10}>
               <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "350px", width: "100%" }}
               />
             </Tilt>
           </Col>
+
         </Row>
       </Container>
     </Container>
   );
 }
+
 export default Home2;
